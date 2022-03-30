@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import SideMenu from './components/side-menu/side-menu';
+import MainApp from './components/main-app/main-app';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MobileHeader from './components/mobile-header/mobile-header';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className='d-lg-none'>
+        <MobileHeader/>
+      </div>
+      <div className='app'>
+        <div className='app-side-menu'>
+          <SideMenu/>
+        </div>
+        <div className='app-main'>
+          <MainApp/>
+        </div>
+      </div>
     </div>
   );
 }

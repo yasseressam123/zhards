@@ -1,0 +1,70 @@
+.side-menu{
+    background-color: white;
+    padding: 20px 2vw;
+    height: 100%;
+}
+.logo{
+    color: #3d57f6;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.side-menu ul{
+    list-style: none;
+    padding: 0px;
+}
+.side-menu li{
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.side-menu li.active,
+.side-menu li:hover{
+    background-color: aliceblue;
+}
+.side-menu li a{
+    display: flex;
+    align-items: center;
+    color: #a3a3a3;
+    text-decoration: none;
+}
+.side-menu li.active a{
+    color: #2196f3;
+}
+.side-menu li a svg{
+    margin-right: 8px;
+    color: #a3a3a3;
+}
+.side-menu li.active a svg{
+    color: #2196f3;
+}
+.side-menu li a p{
+    font-weight: 500;
+    font-size: 14px;
+}
+.note{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px 15px;
+    border-radius: 20px;
+}
+.note svg{
+    font-size: 50px;
+    color: cornflowerblue;
+}
+.note .note-main-title{
+    font-weight: 700;
+    margin: 15px 0px !important;
+}
+.note .note-sub-title{
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 10px !important;
+}
+.note .btn-color{
+    color: #0d6efd;
+    background-color: white;
+    border-color: white;
+    font-weight: 500;
+}
