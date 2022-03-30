@@ -2,6 +2,9 @@
 
 first run npm install then npm start.
 
+# live website
+https://cheerful-tapioca-739b99.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
